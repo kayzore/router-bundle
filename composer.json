@@ -1,0 +1,23 @@
+{
+    "name": "kayzore/router-bundle",
+    "description": "Personal PHP Router",
+    "keywords": ["router", "bundle"],
+    "homepage": "https://github.com/kayzore/PHPFramework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerome Lelievre",
+            "email": "jerome.lelievre2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/yaml": "^3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "KAY": "src/"
+        }
+    }
+}
